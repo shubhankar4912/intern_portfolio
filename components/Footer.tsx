@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="relative w-full  h-[520px] bg-slate-50 top-[310px] right-0 left-0 flex items-center justify-center ">
-      <div className=" absolute top-[80px] left-[410px]">
+      <div className=" absolute top-[80px] left-[630px]">
       <div className=" flex justify-center">
         <div><Image src="/Subtract.png" width={67} height={67} alt="Logo" /></div>
         
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
       </div>
-      <div className=" absolute top-[260px] left-[271px]">
+      <div className=" absolute top-[260px] left-[450px]">
       <div className="flex justify-center gap-6 ">
         <div className="font-semibold">Home</div>
         <div className="font-semibold">About Me</div>
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="font-semibold">Contact</div>
       </div>
       </div>
-      <div className="absolute top-[320px] left-[457px]">
+      <div className="absolute top-[320px] left-[640px]">
         <div className="  flex  gap-5">
         <Image src="/socialmedia/Facebook.png" width={32}  height={32}alt="Facebook-Logo" />
         <Image src="/socialmedia/Instagram.png" width={32}  height={32}alt="Instagram-Logo" />

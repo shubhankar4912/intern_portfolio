@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className=" w-[1420px] h-[67px] flex justify-between items-center mx-auto relative top-[61px]  ">
+    <div className="h-[67px] flex justify-between items-center mx-auto relative top-[61px]  ">
       <Image src="/Subtract.png" width={67} height={67} alt="Logo" />
 
       <div className="flex items-center">
@@ -15,7 +15,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="flex items-center gap-3">
+      <div className=" ml-[100px] flex items-center gap-7">
         {[
           "Home",
           "About Me",

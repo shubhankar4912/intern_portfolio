@@ -22,7 +22,7 @@ function Middle() {
         </div>
       </div>
       <div className=" flex flex-col ">
-        <div className="-my-20">
+        <div className="ml-[125px] -my-20">
           <Image
             src="/img/imageHero.png"
             alt="Hero Image"
@@ -31,7 +31,14 @@ function Middle() {
             className="object-cover"
           />
         </div>
-        <div className="my-28 mx-24">Add social media icons here!
+        <div className="my-28 ml-[125px] pl-[135px] ">
+        <div className="  flex  gap-5">
+        <Image src="/socialmedia/Facebook.png" width={32}  height={32}alt="Facebook-Logo" />
+        <Image src="/socialmedia/Instagram.png" width={32}  height={32}alt="Instagram-Logo" />
+        <Image src="/socialmedia/LinkedIn.png" width={32}  height={32}alt="LinkedIn-Logo" />
+        <Image src="/socialmedia/Twitter.png" width={32}  height={32}alt="Twitter-Logo" />
+  
+        </div>
         </div>
       </div>
     </div>
