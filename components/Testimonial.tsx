@@ -13,12 +13,12 @@ const Testimonial = () => {
       </div>
       <div className="py-20 flex justify-center items-center">
         <div className="w-1/2 h-44 bg-gray-400 flex flex-row py-5">
-          <div className="h-24 w-24 flex items-center justify-center rounded-full bg-black">
+          <div className="h-24 flex items-center justify-center rounded-full bg-black">
             <div className='text-white'>Image goes in here </div>
           </div>
           <div className='flex flex-col '>
-            <div>
-                ""
+            <div className='text-xl text-orange-500 font-bold'>
+                "
             </div>
             <div className='font-center'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
