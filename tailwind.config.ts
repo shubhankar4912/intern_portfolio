@@ -1,5 +1,4 @@
 // tailwind.config.js
-
 module.exports = {
   darkMode: ["class"], // Merged dark mode configuration
   content: [
@@ -61,6 +60,7 @@ module.exports = {
       },
       fontSize: {
         '21px': ['21px', { lineHeight: '31.5px' }],
+        '65': ['65px', { lineHeight: '97.5px' }], // Merged custom font size
       },
       letterSpacing: {
         '0.03em': '0.03em',

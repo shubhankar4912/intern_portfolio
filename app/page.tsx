@@ -1,4 +1,5 @@
 import Aboutme from "@/components/Aboutme";
+import Contactme from "@/components/Contactme";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Middle from "@/components/Middle";
@@ -9,14 +10,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="  w-full h-screen   ">
+    <div className="  w-screen h-screen   ">
+      <div className=" ml-[127px] mr-[127px]">
       <Header/>
       <Middle/>
       <Aboutme/>
       <Service/>
       <Project/>
       <Testimonial/>
+      <Contactme/>
+      </div>
+
       <Footer/>
+
     </div>
   );
 }
