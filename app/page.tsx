@@ -12,9 +12,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="  w-screen h-screen   ">
-        <ThemeSwitch/>
+
+
       <div className=" ml-[127px] mr-[127px]">
-    
+        <div className="flex justify-center"><ThemeSwitch/></div>
+      
       <Header/>
       <Middle/>
       <Aboutme/>
