@@ -45,6 +45,7 @@ const Project = () => {
             alt="projectImage1"
             width={400}
             height={400}
+            
           />
           <div className="text-sm font-bold text-orange-500">Web Design</div>
           <div className="font-extrabold">AirCalling Landing page design</div>

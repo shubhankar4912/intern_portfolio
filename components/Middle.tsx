@@ -23,21 +23,21 @@ function Middle() {
       </div>
       <div className=" flex flex-col relative ">
         <div className="ml-[125px] -my-20">
-          <Image className=" absolute top-0 left-[180px] z-10" src="/Rectangle 4.png" width={374} height={84}/>
+          <Image className=" absolute top-0 left-[180px] z-10" src="/Rectangle 4.png" width={374} height={84} alt=""/>
           <Image className="z-0"
             src="/img/imageHero.png"
             alt="Hero Image"
             width={500}
             height={500}
-            className="object-cover"
+            
           />
         </div>
         <div className="my-28 ml-[125px] pl-[135px] ">
         <div className="  flex  gap-5">
-        <Image src="/socialmedia/Facebook.png" width={32}  height={32}alt="Facebook-Logo" />
-        <Image src="/socialmedia/Instagram.png" width={32}  height={32}alt="Instagram-Logo" />
-        <Image src="/socialmedia/LinkedIn.png" width={32}  height={32}alt="LinkedIn-Logo" />
-        <Image src="/socialmedia/Twitter.png" width={32}  height={32}alt="Twitter-Logo" />
+        <Image src="/socialmedia/Facebook.png" width={32}  height={32} alt="Facebook-Logo" />
+        <Image src="/socialmedia/Instagram.png" width={32}  height={32} alt="Instagram-Logo" />
+        <Image src="/socialmedia/LinkedIn.png" width={32}  height={32} alt="LinkedIn-Logo" />
+        <Image src="/socialmedia/Twitter.png" width={32}  height={32} alt="Twitter-Logo" />
   
         </div>
         </div>

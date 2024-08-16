@@ -30,10 +30,10 @@ const Footer = () => {
       </div>
       <div className="absolute top-[320px] left-[640px]">
         <div className="  flex  gap-5">
-        <Image src="/socialmedia/Facebook.png" width={32}  height={32}alt="Facebook-Logo" />
-        <Image src="/socialmedia/Instagram.png" width={32}  height={32}alt="Instagram-Logo" />
-        <Image src="/socialmedia/LinkedIn.png" width={32}  height={32}alt="LinkedIn-Logo" />
-        <Image src="/socialmedia/Twitter.png" width={32}  height={32}alt="Twitter-Logo" />
+        <Image src="/socialmedia/Facebook.png" width={32}  height={32} alt="Facebook-Logo" />
+        <Image src="/socialmedia/Instagram.png" width={32}  height={32} alt="Instagram-Logo" />
+        <Image src="/socialmedia/LinkedIn.png" width={32}  height={32} alt="LinkedIn-Logo" />
+        <Image src="/socialmedia/Twitter.png" width={32}  height={32} alt="Twitter-Logo" />
   
         </div>
       </div>

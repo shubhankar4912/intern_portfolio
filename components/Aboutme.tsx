@@ -12,6 +12,7 @@ const Aboutme = () => {
           width={500}
           height={500}
           className="object-cover"
+          
         />
       </div>
       <div className="flex flex-col mx-5 space-y-5">
