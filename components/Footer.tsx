@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="relative w-full  h-[520px] bg-slate-50 top-[310px] right-0 left-0 flex items-center justify-center ">
+    <div className="relative w-full  h-[520px] bg-slate-50 top-[310px] right-0 left-0 flex items-center justify-center dark:bg-zinc-950">
       <div className=" absolute top-[80px] left-[630px]">
       <div className=" flex justify-center">
         <div><Image src="/Subtract.png" width={67} height={67} alt="Logo" /></div>

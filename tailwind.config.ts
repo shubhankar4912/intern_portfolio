@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  darkMode: ["class"], // Merged dark mode configuration
+  darkMode: 'class', // Merged dark mode configuration
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',

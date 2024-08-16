@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
+import { Providers } from './providers'
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,10 +17,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
+  return ( 
+    <html lang="en" suppressHydrationWarning>
       {/* Apply Montserrat to the entire body, but keep Inter available if needed */}
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+      <Providers>
+            {children}
+        </Providers>
+        
+        </body>
     </html>
   );
 }

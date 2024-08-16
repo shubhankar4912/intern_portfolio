@@ -6,12 +6,15 @@ import Middle from "@/components/Middle";
 import Project from "@/components/Project";
 import Service from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
+import ThemeSwitch from "@/components/ThemeSwitch";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="  w-screen h-screen   ">
+        <ThemeSwitch/>
       <div className=" ml-[127px] mr-[127px]">
+    
       <Header/>
       <Middle/>
       <Aboutme/>
