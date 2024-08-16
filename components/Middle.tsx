@@ -21,9 +21,10 @@ function Middle() {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col ">
+      <div className=" flex flex-col relative ">
         <div className="ml-[125px] -my-20">
-          <Image
+          <Image className=" absolute top-0 left-[180px] z-10" src="/Rectangle 4.png" width={374} height={84}/>
+          <Image className="z-0"
             src="/img/imageHero.png"
             alt="Hero Image"
             width={500}

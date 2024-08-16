@@ -4,7 +4,8 @@ import React from "react";
 const Aboutme = () => {
   return (
     <div className="relative top-[248px] flex flex-row">
-      <div className="w-1/2  h-full">
+      <div className=" relative w-1/2  h-full">
+      <Image className=" absolute top-[40px] left-[25px] z-10" src="/Rectangle 4.png" width={374} height={84} alt='rectangle'/>
         <Image
           src="/img/imageAboutMe.png"
           alt="Hero Image"
@@ -22,12 +23,10 @@ const Aboutme = () => {
           </div>
         </div>
         <div className="my-5 font-bold text-xl flex-col">
-          UX
+          
           <div className="flex flex-row">
-            <div className="h-3 w-full bg-orange-500 my-2 rounded-lg"></div>
-            <div className="h-5 w-5 rounded-full bg-orange-500 justify-center items-center">
-              <div className="h-3 w-3 rounded-full bg-white"></div>
-            </div>
+            <Image src='/Group 10.png' width={743} height={349} alt="skills"/>
+            
           </div>
         </div>
       </div>
